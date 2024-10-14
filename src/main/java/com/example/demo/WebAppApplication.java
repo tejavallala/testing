@@ -16,6 +16,6 @@ public class WebAppApplication {
     // Welcome method to handle GET requests at the root URL
     @GetMapping("/hi")
     public String welcome() {
-        return "Welcome to the Web Application!";
+        return "Welcome to Docker Learning";
     }
 }
